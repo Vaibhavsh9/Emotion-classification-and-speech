@@ -1,0 +1,1 @@
+{"disgust": {"accuracy": "40.00%", "reason": "Consistently poor performance despite optimization attempts", "samples_removed": 75}, "fearful": {"accuracy": "41.38%", "reason": "Consistently poor performance despite optimization attempts", "samples_removed": 146}}
