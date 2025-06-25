@@ -3,17 +3,17 @@
 
 ## 📌 Overview
 
-This end-to-end pipeline classifies emotions from speech audio using advanced audio processing and deep learning techniques. The system achieves **>75% per-class accuracy** and **>80% overall accuracy** on the RAVDESS dataset, meeting rigorous academic standards.
+This project delivers a complete solution for recognizing emotions in speech audio by leveraging sophisticated audio feature extraction and state-of-the-art deep learning models. Tested on the RAVDESS dataset, the system consistently achieves over 75% accuracy per emotion class and surpasses 80% overall accuracy, aligning with high academic benchmarks.
 
 ---
 
 ## 🎯 Key Features
 
-- **Robust Audio Processing**: Advanced feature extraction (MFCCs, chroma, spectral contrast)
-- **Class Imbalance Handling**: SMOTE oversampling + class weighting
-- **Optimized Model**: CNN-BiLSTM architecture with focal loss
-- **Streamlit Web App**: Interactive emotion classification interface
-- **Comprehensive Metrics**: Detailed confusion matrix and class-wise accuracy reports
+- **Advanced Audio Feature Extraction**: Utilizes MFCCs, chroma vectors, and spectral contrast for rich audio representation.
+- **Balanced Training Strategy**: Employs SMOTE for oversampling and applies class weights to address data imbalance.
+- **Enhanced Deep Learning Model**: Implements a hybrid CNN-BiLSTM network with focal loss for precise emotion recognition.
+- **User-Friendly Web Application**: Offers an interactive Streamlit interface for real-time emotion detection from speech.
+- **Thorough Evaluation Metrics**: Provides in-depth confusion matrix visualization and per-class accuracy breakdowns.
 
 ---
 
@@ -35,14 +35,14 @@ This end-to-end pipeline classifies emotions from speech audio using advanced au
 
 ### 🔧 Installation
 
- Clone repository
+Clone repository
 git clone https://github.com/Vaibhavsh9/Emotion-classification-and-speech
 
 Install dependencies
 pip install -r requirements.txt
 
 ### 🌐 Running the Web App
-streamlit run app/streamlit_app.py
+streamlit run Mars.py
 
 
 ## 📈 Results
@@ -72,18 +72,11 @@ Disgust
 Surprised
 
 ### Citation:
-Livingstone SR, Russo FA (2018)
 The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)
 
 
 ## Validation Criteria
-
 Confusion matrix analysis
-
 F1 score > 80%
-
 Per-class accuracy > 75%
-
 Overall accuracy > 80%
-
-Performance on hidden test set
